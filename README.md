@@ -1,11 +1,37 @@
 # HRMS application for Client
 
-![screenshot_1489571328](https://cloud.githubusercontent.com/assets/19585156/23943077/413d5424-0994-11e7-98a8-721b4969093b.png)
-![screenshot_1489571332](https://cloud.githubusercontent.com/assets/19585156/23943076/413b86da-0994-11e7-9e2f-ce52871ebf5d.png)
-![screenshot_1489571335](https://cloud.githubusercontent.com/assets/19585156/23943081/414dd59c-0994-11e7-99f2-2d877b16f70f.png)
-![screenshot_1489571339](https://cloud.githubusercontent.com/assets/19585156/23943078/413edcfe-0994-11e7-85d4-44c661e1c1b8.png)
-![screenshot_1489571354](https://cloud.githubusercontent.com/assets/19585156/23943080/4141ca2c-0994-11e7-9779-492b2679eb47.png)
-![screenshot_1489571358](https://cloud.githubusercontent.com/assets/19585156/23943079/41408ec8-0994-11e7-81cc-19a93aa99b7d.png)
-![screenshot_1489571371](https://cloud.githubusercontent.com/assets/19585156/23943082/4160c03a-0994-11e7-8aae-45ac1ccaaf42.png)
-![screenshot_1489571381](https://cloud.githubusercontent.com/assets/19585156/23943083/416521f2-0994-11e7-886c-e618dd2f847d.png)
-![screenshot_1489571418](https://cloud.githubusercontent.com/assets/19585156/23943084/417038f8-0994-11e7-9a79-d762fbef32f4.png)
+Login page - English
+
+![screenshot_1489571328](https://cloud.githubusercontent.com/assets/19585156/23944167/e76381cc-0997-11e7-9d37-d6c1db88fd4f.png)
+
+Login page - Select Language.
+
+![screenshot_1489571332](https://cloud.githubusercontent.com/assets/19585156/23944175/e78e852a-0997-11e7-9937-817dcb1e6233.png)
+
+Login page - Select Hindi.
+
+![screenshot_1489571335](https://cloud.githubusercontent.com/assets/19585156/23944170/e7642b36-0997-11e7-9cbf-866b1b0ab86e.png)
+
+Login page - Select Marathi.
+
+![screenshot_1489571339](https://cloud.githubusercontent.com/assets/19585156/23944171/e7642fdc-0997-11e7-96f0-b12d432f24f4.png)
+
+Leave Apply
+
+![screenshot_1489571354](https://cloud.githubusercontent.com/assets/19585156/23944168/e764003e-0997-11e7-89b8-47908e8d32da.png)
+
+Attendance application
+
+![screenshot_1489571358](https://cloud.githubusercontent.com/assets/19585156/23944169/e76421a4-0997-11e7-9f30-9fdc837dad5f.png)
+
+Muster Login
+
+![screenshot_1489571371](https://cloud.githubusercontent.com/assets/19585156/23944172/e786869a-0997-11e7-8390-70a26c72f6df.png)
+
+Muster Login Timer
+
+![screenshot_1489571381](https://cloud.githubusercontent.com/assets/19585156/23944173/e787b3b2-0997-11e7-8cc6-1e650a8e1da1.png)
+
+OD
+
+![screenshot_1489571418](https://cloud.githubusercontent.com/assets/19585156/23944174/e7889c14-0997-11e7-80ea-de6c556fea69.png)
