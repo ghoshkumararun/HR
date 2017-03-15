@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">HR align</string>
+    <string name="username"> Enter your Username</string>
+    <string name="password"> Enter your Password</string>
+    <string name="login">LOGIN</string>
+    <string name="language1">Language</string>
+
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="toggleButton">button</string> 
+    <string name="navigation_drawer_open">Open navigation drawer</string> 
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Leave_Apply">Leave Apply</string>
+    <string name="SendforApproval">Send For Approval</string>
+    <string name="EmpName">Employee</string>
+    <string name="LeaveType">Leave Type</string>
+    <string name="FromDate">From Date</string>
+    <string name="Todate">To Date</string>
+    <string name="AppliedLeave">Applied Leave ( Days)</string>
+    <string name="ActualLeave">Actual Leave (Days)</string>
+    <string name="ContactNumber">Contact Number</string>
+    <string name="ReasonForLeave">Reason for Leave</string>
+    <string name="Attendance_App">Attendance Application</string>
+    <string name="Month">Month</string>
+    <string name="selectDate">Select Date</string>
+    <string name="SelectInTime">Select In Time</string>
+    <string name="SelectOutTime">Select Out Time</string>
+    <string name="SelectRemarks">Select Remarks</string>
+    <string name="FromPlace">From Place</string>
+    <string name="ToPlace">To Place</string>
+    <string name="SelectPurpose">Select Purpose</string>
+    <string name="EnterRemark">Enter Remarks</string>
+    <string name="MusterInOut">Muster Sign in/Sign Out</string>
+    <string-array name="Months">Month
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="Remarks">Remarks
+        <item>Forget to Sign In</item>
+        <item>Forget to one</item>
+        <item>Forget to two</item>
+        <item>Forget to three</item>
+    </string-array>
+    <string-array name="Purpose">Remarks
+        <item>Client Visit</item>
+        <item>Meeting</item>
+        <item>One</item>
+        <item>two</item>
+    </string-array>
+    <string name="timer">00:00:00</string>
+    <string name="MusterIntimer"> Muster Sign In </string>
+    <string name="MusterOuttimer"> Muster Sign Out </string>
+
+</resources>

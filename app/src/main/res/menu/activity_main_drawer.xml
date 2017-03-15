@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/apply_leave"
+            android:icon="@drawable/ic_leave_bal"
+            android:title="Apply Leave" />
+        <item
+            android:id="@+id/leave_balance"
+            android:icon="@drawable/ic_leave_bal1"
+            android:title="Leave Balance" />
+        <item
+            android:id="@+id/Register_your_attendence"
+            android:icon="@drawable/ic_register_attendence"
+            android:title="Register your Attendence" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

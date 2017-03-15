@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tech.platformx.hrms.hralign.HomeScreen"
+    tools:showIn="@layout/app_bar_main">
+
+    <!-- Put activity Fragement code here to show buttons on the layout-->
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            tools:context="gawali.tejas.cj46.circlebuttonshomelayout.MainActivity">
+
+<!--            <Button
+                android:background="@drawable/round_button"
+                android:icon="@drawable/ic_leave_bal"
+                android:text="Leave"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_width="110dp"
+                android:onClick="fragment"
+                android:id="@+id/Leave"
+                android:drawableTop="@android:drawable/ic_dialog_info"
+                android:paddingTop="20dp"
+                android:layout_height="110dp"
+
+                android:layout_marginTop="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/OD"
+                android:layout_alignStart="@+id/OD" />
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/round_button"
+                android:icon="@drawable/ic_leave_bal"
+                android:paddingTop="20dp"
+                android:onClick="fragment"
+                android:text="Leave"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:drawableTop="@android:drawable/ic_menu_view"
+                android:id="@+id/Attendance"
+                android:layout_alignTop="@+id/Leave"
+                android:layout_alignLeft="@+id/Muster"
+                android:layout_alignStart="@+id/Muster" />
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/round_button"
+                android:icon="@drawable/ic_leave_bal"
+                android:paddingTop="20dp"
+                android:text="OD"
+                android:textColor="#fff" android:layout_weight="1"
+                android:drawableTop="@android:drawable/ic_menu_close_clear_cancel"
+                android:id="@+id/OD"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="56dp"
+                android:layout_marginStart="56dp" />
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/round_button"
+                android:icon="@drawable/ic_leave_bal"
+                android:text="Muster"
+                android:textColor="#fff"
+                android:paddingTop="20dp"
+                android:layout_weight="1"
+                android:drawableTop="@android:drawable/ic_dialog_map"
+                android:id="@+id/Muster"
+                android:layout_marginRight="43dp"
+                android:layout_alignTop="@+id/OD"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="43dp" />  -->
+
+<!--            <WebView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/webView"
+                android:layout_alignParentBottom="true"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/frag_place"
+                    class="tech.platformx.cj46.hrms_leaveregister.FragementOne">
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:onClick="fragment"
+                    android:id="@+id/Leave"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="10dp"
+                    android:drawableTop="@drawable/home"
+                    android:background="@drawable/square_button"
+                    android:text="Leave"/>
+
+                <Button
+                    android:onClick="fragment"
+                    android:id="@+id/Attendance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/apply"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:background="@drawable/square_button"
+                    android:text="Attendance"/>
+
+                <Button
+                    android:id="@+id/OD"
+                    android:onClick="fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:drawableTop="@drawable/balance"
+                    android:background="@drawable/square_button"
+                    android:text="OD"/>
+
+                <Button
+                    android:id="@+id/Muster"
+                    android:onClick="fragment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/logout"
+                    android:paddingRight="0dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:background="@drawable/square_button"
+                    android:text="Muster"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+</RelativeLayout>
